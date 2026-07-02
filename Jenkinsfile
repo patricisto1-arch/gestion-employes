@@ -1,4 +1,4 @@
-pipeline {
++pipeline {
 
     agent {
         label 'agent-windows'  // ou 'linux' selon votre agent Jenkins
@@ -15,7 +15,7 @@ pipeline {
 
     stages {
 
-        // Checkout code source Backend + Frontend
+        // Checkout code source Backend + Frontend + Frontennnd
         stage('Checkout Backend + Frontend') {
             steps {
                 checkout scm
